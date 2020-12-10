@@ -1,0 +1,9 @@
+
+google-cloud-iot==2.0.1
+grpc-google-iam-v1==0.12.3
+google-api-core==1.23.0
+proto-plus==1.11.0
+libcst==0.3.13
+paho-mqtt==1.5.1
+PyAudio==0.2.11
+PyJWT==1.7.1

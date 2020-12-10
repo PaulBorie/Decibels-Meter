@@ -1,0 +1,14 @@
+version: '2'
+services:
+  decibelsmeter:
+    build: ./
+    devices:
+      - "/dev/snd:/dev/snd"
+    volumes:
+      - dbmetervol:/home/decibelsmeter/data
+    privileged: true
+volumes:
+  dbmetervol:
+    external: true
+    
+        

@@ -1,0 +1,5 @@
+venv/
+.vscode/
+lib/__pycache__
+__pycache__
+data/key.json
